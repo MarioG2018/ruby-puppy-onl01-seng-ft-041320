@@ -15,7 +15,7 @@ class Dog
     @@all.each do |dog|
       #puts dog
     end
-    puts @all[dog[]
+    puts @all[dog]
   end
   
   def self.save()
