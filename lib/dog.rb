@@ -28,6 +28,7 @@ class Dog
     @@all.each do |dog|
       @@all=dog.clear
     end
+    @all
   end
   
   
