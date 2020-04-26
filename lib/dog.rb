@@ -2,7 +2,7 @@
 class Dog
   @@all=[]
   attr_accessor :name
-  def new()
+  def new(name)
     @name=name
   end
   
