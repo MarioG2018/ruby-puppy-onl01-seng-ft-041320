@@ -25,6 +25,7 @@ class Dog
     array.each do |dog|
       dog=@@all.clear
       end
+      dog
   end
   
   
