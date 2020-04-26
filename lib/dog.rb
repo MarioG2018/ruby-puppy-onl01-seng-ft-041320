@@ -15,7 +15,7 @@ class Dog
     @@all.each do |dog|
       #puts dog
     end
-    puts dog
+    puts self.dog
   end
   
   def self.save()
