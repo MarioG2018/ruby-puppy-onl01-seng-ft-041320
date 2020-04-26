@@ -13,8 +13,9 @@ class Dog
   
   def print_all
     @@all.each do |dog|
-      puts dog
+      #puts dog
     end
+    puts dog
   end
   
   def self.save()
