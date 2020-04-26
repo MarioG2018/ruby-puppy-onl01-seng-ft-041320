@@ -16,6 +16,7 @@ class Dog
     @@all.each do |dog|
       @@all=dog
     end
+    @@all
   end
   
   def save()
